@@ -1,0 +1,12 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: when_authorized
+
